@@ -1,10 +1,17 @@
-import CostItem from "./components/CostItem";
+import Costs from "./components/Costs";
 
 function App() {
+  const costs = [
+    {
+      date: new Date(2023, 9, 21),
+      description: "Холодильник",
+      amount: 500,
+    },
+  ];
   return (
     <div>
       <h1>Изучение React</h1>
-      <CostItem></CostItem>
+      <Costs costs={costs}/>
     </div>
   );
 }

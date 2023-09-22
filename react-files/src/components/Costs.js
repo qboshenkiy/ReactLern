@@ -1,0 +1,16 @@
+import CostItem from "./CostItem";
+import "./Costs.css"
+import Card from "./Card";
+
+function Costs(props) {
+  return (
+  <Card className="costs">
+    <CostItem
+        date={props.costs[0].date}
+        description={props.costs[0].description}
+        amount={props.costs[0].amount}
+      ></CostItem>
+  </Card>
+  );
+}
+export default Costs;

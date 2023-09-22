@@ -1,7 +1,8 @@
 .costs {
   padding: 1rem;
-  background-color: #aac4d1;
+  background-color: #ee806a;
   margin: 2rem auto;
+  border-radius: 30px;
   width: 70rem;
   max-width: 95%;
 }

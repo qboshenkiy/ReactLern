@@ -4,7 +4,7 @@
   width: 5.5rem;
   height: 5.5rem;
   border: 1px solid #ececec;
-  background-color: #2a5b84;
+  background-color: #840c0c;
   color: #fefae1;
   border-radius: 12px;
   align-items: center;
@@ -12,15 +12,15 @@
 }
 
 .cost-date__month {
-  font-size: 0.75rem;
+  font-size: 0.90rem;
   font-weight: bold;
 }
 
 .cost-date__year {
-  font-size: 0.75rem;
+  font-size: 0.90rem;
+  font-weight: 600;
 }
 
 .cost-date__day {
   font-size: 1.5rem;
-  font-weight: bold;
 }
