@@ -1,6 +1,4 @@
 import './CostsFilter.css'
-import React, { useState } from "react";
-
 function CostFilter(props) {
     const addChangeHandler = (event) =>{
         props.onSaveChangeYear(event.target.value);
